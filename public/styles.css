@@ -1,0 +1,96 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-inline {
+    display: flex;
+    align-items: center;
+}
+.navbar-brand img {
+    height: 50px; /* Adjust based on your logo's size */
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Dropdown menu on hover */
+.navbar .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Dropdown menu layout */
+.dropdown-menu div {
+    min-width: 200px;
+}
+
+.dropdown-header {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Style adjustments for navbar dropdowns */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: rgba(255,255,255,.75);
+}
+
+.navbar-dark .navbar-nav .nav-item.dropdown.show .nav-link {
+    color: rgba(255,255,255);
+}
+.custom-card-height {
+    height: 70vh; /* This makes the card take up 70% of the viewport height */
+}
+
+.custom-card-border {
+    border: 2px solid #000; /* Adds a solid black border, 2px thick */
+}
+.custom-card {
+    height: 70vh; /* Custom height for the card */
+    border: 2px solid #000; /* Adds a solid black border */
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px #000; /* Adds a shadow to the text for better visibility */
+}
+
+.button-group a {
+    transition: background-color 0.3s ease; /* Smooth transition for button background color */
+}
+
+.button-group a:hover {
+    background-color: #0056b3; /* Darker shade when hovered */
+}
+
+.sizes-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .size {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .size-label {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .size-price {
+    font-size: 18px;
+  }
+  
